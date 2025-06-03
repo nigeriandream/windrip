@@ -1,0 +1,61 @@
+{
+    "name": "windrip",
+    "version": "1.0.1",
+    "description": "Extract Tailwind CSS and JS from PHP, HTML, and other frontend files generating lightweight build files. No build tools required.",
+    "main": "src/index.js",
+    "bin": {
+        "windrip": "src/index.js"
+    },
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint src",
+        "start": "node src/index.js"
+    },
+    "keywords": [
+        "tailwindcss",
+        "extractor",
+        "php",
+        "html",
+        "cdn",
+        "jit",
+        "css",
+        "buildless",
+        "windrip",
+        "frontend",
+        "compiler",
+        "tailwind"
+    ],
+    "author": "Ozor A. <talltechbro@gmail.com>",
+    "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nigeriandream/windrip.git"
+    },
+    "homepage": "https://github.com/nigeriandream/windrip#readme",
+    "bugs": {
+        "url": "git+https://github.com/nigeriandream/windrip/issues"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "chokidar": "^4.0.0",
+        "glob": "^11.0.0",
+        "http-server": "^14.1.1",
+        "minimist": "^1.2.8",
+        "prompts": "^2.4.2",
+        "puppeteer": "^22.7.0",
+        "clean-css": "^5.0.0"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "files": [
+        "src",
+        "LICENSE",
+        "README.md"
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
+}

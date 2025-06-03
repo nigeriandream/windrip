@@ -1,0 +1,36 @@
+# Development
+node_modules/
+.vscode/
+.idea/
+*.log
+coverage/
+.env
+.env.*
+
+# Tests
+test/
+tests/
+__tests__
+*.test.js
+*.spec.js
+
+# Build artifacts
+windrip/
+*.csshash
+build/
+dist/
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+
+# CI/CD and misc
+.git
+.github/
+.gitignore
+.travis.yml
+.circleci/
+
+# Documentation not needed in package
+CONTRIBUTING.md
